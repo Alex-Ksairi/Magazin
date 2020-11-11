@@ -1,0 +1,229 @@
+/* general reseting */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cutive+Mono&family=MuseoModerno&family=Wallpoet&display=swap');
+/* coding start right here */
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("Images/image6.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navigation */
+
+nav {
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    line-height: 50px;
+    float: left;
+    padding: 0 20px;
+    text-transform: uppercase;
+    margin-left: 70px;
+}
+
+nav a {
+    padding: 15px;
+    color: cornflowerblue;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: #2a3132;
+    background-color: #fff;
+}
+
+.head {
+    padding: 60px;
+    margin: 50px;
+    color: honeydew;
+    text-transform: uppercase;
+    font-size: 30px;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+/* here we start with the left part */
+.bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 100%;
+    background-color: rgba(42, 49, 50, .6);
+}
+
+.cog .academy {
+    position: relative;
+    top: 10px;
+    left: 0;
+    padding: 10px 0;
+    writing-mode: vertical-rl;
+    transform: rotateZ(180deg);
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.hr {
+    position: relative;
+    top: 10px;
+    left: -14.5px;
+    padding: 20px 0;
+}
+
+.bar .cog {
+    font-size: 2rem;
+    color: #fff;
+    position: relative;
+    top: 55%;
+    left: 29px;
+    padding: 10px 0;
+}
+
+.faso {
+    position: relative;
+    top: 10px;
+    left: 0;
+    padding: 5px 0;
+}
+
+div .icon, .manu{
+    font-size: 2rem;
+    color: #fff;
+    position: relative;
+    top: 6px;
+    left: 29px;
+    padding: 10px 0;
+}
+
+
+/* here we start with the right part */
+.container {
+    width: 28%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 50px;
+    background-color: rgb(42, 49, 50, 0.7);
+}
+
+.container .column {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.container .column p {
+    position: relative;
+    padding: 20px;
+    margin: 10px;
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+.container .column p span {
+    position: relative;
+    top: 0;
+    left: 40px;
+    font-size: 12px;
+    padding-left: 50px;
+    margin-left: 50px;
+}
+
+.container .column p span a {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.container .column div img {
+    width: 130px;
+    height: 150px;
+    margin: 10px;
+}
+
+.container .column div h3 {
+    font-size: 1rem;
+    font-weight: 100;
+    color: whitesmoke;
+    position: absolute;
+    top: 86px;
+    right: 80px;
+}
+
+.container .column #d1 p:nth-of-type(1) {
+    font-size: 1.2rem;
+    color: whitesmoke;
+    position: absolute;
+    top: 86px;
+    left: 140px;
+}
+
+.container .column #d1 p:nth-of-type(2) {
+    font-size: 1rem;
+    color: whitesmoke;
+    position: absolute;
+    top: 150px;
+    left: 140px;
+}
+
+.container .column #d2 h3 {
+    font-size: 1rem;
+    font-weight: 100;
+    color: whitesmoke;
+    position: absolute;
+    top: 44%;
+    right: 41px;
+}
+
+.container .column #d2 p:nth-of-type(1) {
+    font-size: 1.2rem;
+    color: whitesmoke;
+    position: absolute;
+    top: 48%;
+    left: 140px;
+}
+
+.container .column #d2 p:nth-of-type(2) {
+    font-size: 1rem;
+    color: whitesmoke;
+    position: absolute;
+    top: 55%;
+    left: 140px;
+}
+
+.container .column #d3 h3 {
+    font-size: 1rem;
+    font-weight: 100;
+    color: whitesmoke;
+    position: absolute;
+    top: 75%;
+    right: 95px;
+}
+
+.container .column #d3 p:nth-of-type(1) {
+    font-size: 1.2rem;
+    color: whitesmoke;
+    position: absolute;
+    top: 88%;
+    left: 140px;
+}
+
+.container .column #d3 p:nth-of-type(2) {
+    font-size: 1rem;
+    color: whitesmoke;
+    position: absolute;
+    top: 78%;
+    left: 140px;
+}
